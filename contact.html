@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Le Délice - Contact</title>
+  <link rel="stylesheet" href="style/styles.css" />
+</head>
+<body>
+  <header class="contact-header">
+    <nav class="navbar">
+      <div class="logo">🍽️ LILI RESTO</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="gallery.html">Nos plats</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1 class="page-title">Contactez-nous</h1>
+  </header>
+
+  <section class="contact-container">
+    <div class="contact-form">
+      <h2>Envoyez-nous un message</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Votre nom" required />
+        <input type="email" name="email" placeholder="Votre email" required />
+        <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+    <div class="contact-map">
+      <h2>Notre position</h2>
+      <iframe 
+        src="https://www.google.com/maps?q=Kisangani,+RDC&output=embed"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </section>
+  <script src="java/javascript.js"></script>
+</body>
+</html>
